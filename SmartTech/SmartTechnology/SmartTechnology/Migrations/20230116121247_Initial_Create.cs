@@ -2,6 +2,8 @@
 
 #nullable disable
 
+#pragma warning disable CA1814 // Prefer jagged arrays over multidimensional
+
 namespace SmartTechnology.Migrations
 {
     /// <inheritdoc />
@@ -63,7 +65,7 @@ namespace SmartTechnology.Migrations
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Quantity = table.Column<int>(type: "int", nullable: false),
-                    ProductId = table.Column<int>(type: "int", nullable: false),
+                    ProductId = table.Column<int>(type: "int", nullable: true),
                     ColorId = table.Column<int>(type: "int", nullable: true),
                     SizeId = table.Column<int>(type: "int", nullable: true)
                 },
@@ -79,13 +81,33 @@ namespace SmartTechnology.Migrations
                         name: "FK_ProductVariants_Products_ProductId",
                         column: x => x.ProductId,
                         principalTable: "Products",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
+                        principalColumn: "Id");
                     table.ForeignKey(
                         name: "FK_ProductVariants_Sizes_SizeId",
                         column: x => x.SizeId,
                         principalTable: "Sizes",
                         principalColumn: "Id");
+                });
+
+            migrationBuilder.InsertData(
+                table: "Colors",
+                columns: new[] { "Id", "ColorValueAr", "ColorValueEn", "ColorValueFr" },
+                values: new object[,]
+                {
+                    { 1, "أحمر", "Red", "Rose" },
+                    { 2, "أزرق", "Blue", "Blue" }
+                });
+
+            migrationBuilder.InsertData(
+                table: "Sizes",
+                columns: new[] { "Id", "SizeValue" },
+                values: new object[,]
+                {
+                    { 1, 36 },
+                    { 2, 37 },
+                    { 3, 38 },
+                    { 4, 39 },
+                    { 5, 40 }
                 });
 
             migrationBuilder.CreateIndex(

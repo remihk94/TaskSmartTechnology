@@ -167,6 +167,16 @@ namespace SmartTechnology.Migrations
                         {
                             Id = 3,
                             SizeValue = 38
+                        },
+                        new
+                        {
+                            Id = 4,
+                            SizeValue = 39
+                        },
+                        new
+                        {
+                            Id = 5,
+                            SizeValue = 40
                         });
                 });
 

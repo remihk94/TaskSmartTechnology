@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3ZGSW8PNWNwfDfxI0c/qzYaZvx4dM4S8XbeCHfTFA2QFXoKpTQ3aviI21SQu/FGAqss+GzMkle8uX/PaWpNS0A==",
+  "dgSpecHash": "NfPrsoXgRSqlv+IZG695yOC91p7FaDDhYoWZn67iH3cwpfmwvJD9Gmz9Uq3i2q0dq3WG+ETXaVEylaLLJw4OOg==",
   "success": true,
-  "projectFilePath": "D:\\Remote\\SmartTech\\SmartTechnology\\SmartTechnology\\SmartTechnology.csproj",
+  "projectFilePath": "D:\\Remote\\SmartTech\\SmartTech\\SmartTechnology\\SmartTechnology\\SmartTechnology.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LENOVO\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",

@@ -12,8 +12,8 @@ using SmartTechnology.Data;
 namespace SmartTechnology.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20230115123423_Initial_Creation")]
-    partial class InitialCreation
+    [Migration("20230116121247_Initial_Create")]
+    partial class InitialCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -170,6 +170,16 @@ namespace SmartTechnology.Migrations
                         {
                             Id = 3,
                             SizeValue = 38
+                        },
+                        new
+                        {
+                            Id = 4,
+                            SizeValue = 39
+                        },
+                        new
+                        {
+                            Id = 5,
+                            SizeValue = 40
                         });
                 });
 

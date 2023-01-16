@@ -3562,11 +3562,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Remote\\SmartTech\\SmartTechnology\\SmartTechnology\\SmartTechnology.csproj",
+      "projectUniqueName": "D:\\Remote\\SmartTech\\SmartTech\\SmartTechnology\\SmartTechnology\\SmartTechnology.csproj",
       "projectName": "SmartTechnology",
-      "projectPath": "D:\\Remote\\SmartTech\\SmartTechnology\\SmartTechnology\\SmartTechnology.csproj",
+      "projectPath": "D:\\Remote\\SmartTech\\SmartTech\\SmartTechnology\\SmartTechnology\\SmartTechnology.csproj",
       "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-      "outputPath": "D:\\Remote\\SmartTech\\SmartTechnology\\SmartTechnology\\obj\\",
+      "outputPath": "D:\\Remote\\SmartTech\\SmartTech\\SmartTechnology\\SmartTechnology\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
