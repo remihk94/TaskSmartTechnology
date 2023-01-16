@@ -1,0 +1,6 @@
+in order to run the project:
+
+1- install sql server 2017
+2- install VS 2022
+3- open visual studio and run the command : "update-database" in the package manager console.
+4- run project by pressing f5.
